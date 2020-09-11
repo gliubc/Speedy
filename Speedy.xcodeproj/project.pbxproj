@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -57,6 +57,7 @@
 		3317AC26250B15B40011A2BE /* SpeedyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3317AC2A250B15B40011A2BE /* SpeedyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedyUITests.m; sourceTree = "<group>"; };
 		3317AC2C250B15B40011A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3317AC3B250B54400011A2BE /* Speedy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speedy-Bridging-Header.h"; sourceTree = "<group>"; };
 		4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.debug.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.debug.xcconfig"; sourceTree = "<group>"; };
 		7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speedy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.release.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.release.xcconfig"; sourceTree = "<group>"; };
@@ -125,6 +126,7 @@
 				3317AC14250B15B40011A2BE /* Info.plist */,
 				3317AC15250B15B40011A2BE /* main.m */,
 				3317AC0C250B15B30011A2BE /* Speedy.xcdatamodeld */,
+				3317AC3B250B54400011A2BE /* Speedy-Bridging-Header.h */,
 			);
 			path = Speedy;
 			sourceTree = "<group>";
@@ -161,7 +163,6 @@
 				4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */,
 				BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -234,6 +235,7 @@
 				TargetAttributes = {
 					3317ABFC250B15B30011A2BE = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1160;
 					};
 					3317AC1A250B15B40011A2BE = {
 						CreatedOnToolsVersion = 11.6;
@@ -513,7 +515,9 @@
 			baseConfigurationReference = 4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4SGG976672;
 				INFOPLIST_FILE = Speedy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -522,6 +526,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baocheng.Speedy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speedy/Speedy-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -531,7 +538,9 @@
 			baseConfigurationReference = BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 4SGG976672;
 				INFOPLIST_FILE = Speedy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -540,6 +549,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.baocheng.Speedy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Speedy/Speedy-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
