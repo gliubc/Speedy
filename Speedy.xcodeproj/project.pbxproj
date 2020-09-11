@@ -114,6 +114,12 @@
 		3317ABFF250B15B30011A2BE /* Speedy */ = {
 			isa = PBXGroup;
 			children = (
+				3317AC43250B6B020011A2BE /* UI */,
+				3317AC42250B6AEF0011A2BE /* ThirdParty */,
+				3317AC41250B6AC00011A2BE /* Categories */,
+				3317AC40250B6AA60011A2BE /* Utils */,
+				3317AC3F250B6A930011A2BE /* Common */,
+				3317AC3E250B6A810011A2BE /* Custom */,
 				3317AC00250B15B30011A2BE /* AppDelegate.h */,
 				3317AC01250B15B30011A2BE /* AppDelegate.m */,
 				3317AC03250B15B30011A2BE /* SceneDelegate.h */,
@@ -147,6 +153,48 @@
 				3317AC2C250B15B40011A2BE /* Info.plist */,
 			);
 			path = SpeedyUITests;
+			sourceTree = "<group>";
+		};
+		3317AC3E250B6A810011A2BE /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		3317AC3F250B6A930011A2BE /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3317AC40250B6AA60011A2BE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		3317AC41250B6AC00011A2BE /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		3317AC42250B6AEF0011A2BE /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		3317AC43250B6B020011A2BE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 		8B5536FEAC895875E6BE3DBC /* Frameworks */ = {
