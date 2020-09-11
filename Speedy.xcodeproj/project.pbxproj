@@ -17,6 +17,7 @@
 		3317AC16250B15B40011A2BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC15250B15B40011A2BE /* main.m */; };
 		3317AC20250B15B40011A2BE /* SpeedyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC1F250B15B40011A2BE /* SpeedyTests.m */; };
 		3317AC2B250B15B40011A2BE /* SpeedyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC2A250B15B40011A2BE /* SpeedyUITests.m */; };
+		EFE60ABC2D86DF78117135EF /* Pods_Speedy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,9 @@
 		3317AC26250B15B40011A2BE /* SpeedyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3317AC2A250B15B40011A2BE /* SpeedyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedyUITests.m; sourceTree = "<group>"; };
 		3317AC2C250B15B40011A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.debug.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.debug.xcconfig"; sourceTree = "<group>"; };
+		7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speedy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.release.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE60ABC2D86DF78117135EF /* Pods_Speedy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +95,8 @@
 				3317AC1E250B15B40011A2BE /* SpeedyTests */,
 				3317AC29250B15B40011A2BE /* SpeedyUITests */,
 				3317ABFE250B15B30011A2BE /* Products */,
+				DF1ECFFA6CAB7B906E5B2461 /* Pods */,
+				8B5536FEAC895875E6BE3DBC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,24 @@
 			path = SpeedyUITests;
 			sourceTree = "<group>";
 		};
+		8B5536FEAC895875E6BE3DBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF1ECFFA6CAB7B906E5B2461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */,
+				BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3317AC2F250B15B40011A2BE /* Build configuration list for PBXNativeTarget "Speedy" */;
 			buildPhases = (
+				D2CA847DDB1F3DBF2D6E56C6 /* [CP] Check Pods Manifest.lock */,
 				3317ABF9250B15B30011A2BE /* Sources */,
 				3317ABFA250B15B30011A2BE /* Frameworks */,
 				3317ABFB250B15B30011A2BE /* Resources */,
+				EE2F66B7F256F83DC2CC88D0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2CA847DDB1F3DBF2D6E56C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Speedy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE2F66B7F256F83DC2CC88D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speedy/Pods-Speedy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Speedy/Pods-Speedy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Speedy/Pods-Speedy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3317ABF9250B15B30011A2BE /* Sources */ = {
@@ -441,6 +510,7 @@
 		};
 		3317AC30250B15B40011A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -458,6 +528,7 @@
 		};
 		3317AC31250B15B40011A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
