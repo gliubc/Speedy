@@ -16,19 +16,23 @@ PODS:
     - AFNetworking/NSURLSession
   - LCNetwork (1.5.0):
     - AFNetworking
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - LCNetwork
+  - Masonry
 
 SPEC REPOS:
   trunk:
     - AFNetworking
     - LCNetwork
+    - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   LCNetwork: 746a151ffc946ed75aac0029019fab6516cc228e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 921511d180a9be6b5c8e65a820dd7a1aa534d91f
+PODFILE CHECKSUM: cfe19828bbc4071bf5c98550857c2e6dbd70c4bb
 
 COCOAPODS: 1.8.4

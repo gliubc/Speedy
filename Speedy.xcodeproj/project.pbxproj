@@ -17,6 +17,15 @@
 		3317AC16250B15B40011A2BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC15250B15B40011A2BE /* main.m */; };
 		3317AC20250B15B40011A2BE /* SpeedyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC1F250B15B40011A2BE /* SpeedyTests.m */; };
 		3317AC2B250B15B40011A2BE /* SpeedyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC2A250B15B40011A2BE /* SpeedyUITests.m */; };
+		3317AC45250B6BDB0011A2BE /* HairlineConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC44250B6BDB0011A2BE /* HairlineConstraint.swift */; };
+		3317AC47250B6C1B0011A2BE /* DiagonalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC46250B6C1B0011A2BE /* DiagonalLine.swift */; };
+		3317AC49250B6C280011A2BE /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC48250B6C280011A2BE /* Triangle.swift */; };
+		3317AC4C250B6C9C0011A2BE /* NestedScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC4A250B6C9C0011A2BE /* NestedScrollView.m */; };
+		3317AC4F250B6CB00011A2BE /* CustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC4D250B6CB00011A2BE /* CustomTitleView.m */; };
+		3317AC53250B6D0F0011A2BE /* LocationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC51250B6D0F0011A2BE /* LocationService.m */; };
+		3317AC56250B6DC10011A2BE /* LCCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC55250B6DC10011A2BE /* LCCollectionView.m */; };
+		3317AC59250B6E700011A2BE /* LCTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC57250B6E700011A2BE /* LCTableView.m */; };
+		3317AC5C250B6F070011A2BE /* LCMultiTabViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3317AC5B250B6F070011A2BE /* LCMultiTabViewController.m */; };
 		EFE60ABC2D86DF78117135EF /* Pods_Speedy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +67,21 @@
 		3317AC2A250B15B40011A2BE /* SpeedyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpeedyUITests.m; sourceTree = "<group>"; };
 		3317AC2C250B15B40011A2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3317AC3B250B54400011A2BE /* Speedy-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Speedy-Bridging-Header.h"; sourceTree = "<group>"; };
+		3317AC44250B6BDB0011A2BE /* HairlineConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HairlineConstraint.swift; sourceTree = "<group>"; };
+		3317AC46250B6C1B0011A2BE /* DiagonalLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiagonalLine.swift; sourceTree = "<group>"; };
+		3317AC48250B6C280011A2BE /* Triangle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		3317AC4A250B6C9C0011A2BE /* NestedScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NestedScrollView.m; sourceTree = "<group>"; };
+		3317AC4B250B6C9C0011A2BE /* NestedScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NestedScrollView.h; sourceTree = "<group>"; };
+		3317AC4D250B6CB00011A2BE /* CustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTitleView.m; sourceTree = "<group>"; };
+		3317AC4E250B6CB00011A2BE /* CustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitleView.h; sourceTree = "<group>"; };
+		3317AC51250B6D0F0011A2BE /* LocationService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationService.m; sourceTree = "<group>"; };
+		3317AC52250B6D0F0011A2BE /* LocationService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationService.h; sourceTree = "<group>"; };
+		3317AC54250B6DC10011A2BE /* LCCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCCollectionView.h; sourceTree = "<group>"; };
+		3317AC55250B6DC10011A2BE /* LCCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCCollectionView.m; sourceTree = "<group>"; };
+		3317AC57250B6E700011A2BE /* LCTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCTableView.m; sourceTree = "<group>"; };
+		3317AC58250B6E700011A2BE /* LCTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCTableView.h; sourceTree = "<group>"; };
+		3317AC5A250B6F070011A2BE /* LCMultiTabViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCMultiTabViewController.h; sourceTree = "<group>"; };
+		3317AC5B250B6F070011A2BE /* LCMultiTabViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCMultiTabViewController.m; sourceTree = "<group>"; };
 		4B2A1A870FDE80808CF1BA2E /* Pods-Speedy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.debug.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.debug.xcconfig"; sourceTree = "<group>"; };
 		7A57C670BF2A0733AC67FAB9 /* Pods_Speedy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Speedy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBC3D6075568AB77430ABC5E /* Pods-Speedy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Speedy.release.xcconfig"; path = "Target Support Files/Pods-Speedy/Pods-Speedy.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,12 +138,13 @@
 		3317ABFF250B15B30011A2BE /* Speedy */ = {
 			isa = PBXGroup;
 			children = (
-				3317AC43250B6B020011A2BE /* UI */,
-				3317AC42250B6AEF0011A2BE /* ThirdParty */,
 				3317AC41250B6AC00011A2BE /* Categories */,
-				3317AC40250B6AA60011A2BE /* Utils */,
 				3317AC3F250B6A930011A2BE /* Common */,
 				3317AC3E250B6A810011A2BE /* Custom */,
+				3317AC50250B6CDE0011A2BE /* Services */,
+				3317AC42250B6AEF0011A2BE /* ThirdParty */,
+				3317AC40250B6AA60011A2BE /* Utils */,
+				3317AC43250B6B020011A2BE /* UI */,
 				3317AC00250B15B30011A2BE /* AppDelegate.h */,
 				3317AC01250B15B30011A2BE /* AppDelegate.m */,
 				3317AC03250B15B30011A2BE /* SceneDelegate.h */,
@@ -158,6 +183,16 @@
 		3317AC3E250B6A810011A2BE /* Custom */ = {
 			isa = PBXGroup;
 			children = (
+				3317AC4B250B6C9C0011A2BE /* NestedScrollView.h */,
+				3317AC4A250B6C9C0011A2BE /* NestedScrollView.m */,
+				3317AC4E250B6CB00011A2BE /* CustomTitleView.h */,
+				3317AC4D250B6CB00011A2BE /* CustomTitleView.m */,
+				3317AC54250B6DC10011A2BE /* LCCollectionView.h */,
+				3317AC55250B6DC10011A2BE /* LCCollectionView.m */,
+				3317AC58250B6E700011A2BE /* LCTableView.h */,
+				3317AC57250B6E700011A2BE /* LCTableView.m */,
+				3317AC5A250B6F070011A2BE /* LCMultiTabViewController.h */,
+				3317AC5B250B6F070011A2BE /* LCMultiTabViewController.m */,
 			);
 			path = Custom;
 			sourceTree = "<group>";
@@ -165,6 +200,9 @@
 		3317AC3F250B6A930011A2BE /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				3317AC44250B6BDB0011A2BE /* HairlineConstraint.swift */,
+				3317AC46250B6C1B0011A2BE /* DiagonalLine.swift */,
+				3317AC48250B6C280011A2BE /* Triangle.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -195,6 +233,15 @@
 			children = (
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		3317AC50250B6CDE0011A2BE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3317AC52250B6D0F0011A2BE /* LocationService.h */,
+				3317AC51250B6D0F0011A2BE /* LocationService.m */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		8B5536FEAC895875E6BE3DBC /* Frameworks */ = {
@@ -389,11 +436,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3317AC53250B6D0F0011A2BE /* LocationService.m in Sources */,
+				3317AC4F250B6CB00011A2BE /* CustomTitleView.m in Sources */,
+				3317AC5C250B6F070011A2BE /* LCMultiTabViewController.m in Sources */,
 				3317AC16250B15B40011A2BE /* main.m in Sources */,
 				3317AC08250B15B30011A2BE /* ViewController.m in Sources */,
 				3317AC0E250B15B30011A2BE /* Speedy.xcdatamodeld in Sources */,
 				3317AC02250B15B30011A2BE /* AppDelegate.m in Sources */,
+				3317AC45250B6BDB0011A2BE /* HairlineConstraint.swift in Sources */,
+				3317AC56250B6DC10011A2BE /* LCCollectionView.m in Sources */,
+				3317AC4C250B6C9C0011A2BE /* NestedScrollView.m in Sources */,
+				3317AC47250B6C1B0011A2BE /* DiagonalLine.swift in Sources */,
+				3317AC59250B6E700011A2BE /* LCTableView.m in Sources */,
 				3317AC05250B15B30011A2BE /* SceneDelegate.m in Sources */,
+				3317AC49250B6C280011A2BE /* Triangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -606,6 +662,7 @@
 		3317AC33250B15B40011A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SGG976672;
@@ -626,6 +683,7 @@
 		3317AC34250B15B40011A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SGG976672;
@@ -646,6 +704,7 @@
 		3317AC36250B15B40011A2BE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SGG976672;
 				INFOPLIST_FILE = SpeedyUITests/Info.plist;
@@ -664,6 +723,7 @@
 		3317AC37250B15B40011A2BE /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4SGG976672;
 				INFOPLIST_FILE = SpeedyUITests/Info.plist;
