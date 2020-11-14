@@ -2,7 +2,7 @@
 //  SpeedyUITests.swift
 //  SpeedyUITests
 //
-//  Created by Haier on 2020/11/9.
+//  Created by Baocheng on 2020/11/9.
 //
 
 import XCTest

@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  Speedy
 //
-//  Created by Haier on 2020/11/9.
+//  Created by Baocheng on 2020/11/9.
 //
 
 import UIKit
